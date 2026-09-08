@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+
+# model artefacts and checkpoints
+*.safetensors
+*.bin
+*.gguf
+checkpoints/
+runs/
+wandb/
